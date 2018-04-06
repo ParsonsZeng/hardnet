@@ -26,7 +26,7 @@ import torchvision.transforms as transforms
 from torch.autograd import Variable
 import torch.backends.cudnn as cudnn
 import os
-from tqdm import tqdm
+from tqdm import tqdm      # tqdm是进度条迭代器
 import numpy as np
 import random
 import cv2
